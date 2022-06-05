@@ -1,0 +1,23 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css');
+
+.topHead,
+.nextHead {
+  font-weight: bold;
+}
+.signupPage {
+  text-align: center;
+}
+.form-control {
+  margin: 10px auto;
+  width: 40%;
+}
+
+.darkMode{
+  background-color: rgb(27, 27, 27);
+}
+
+@media (max-width: 650px) {
+  .form-control {
+    width: 90%;
+  }
+}
